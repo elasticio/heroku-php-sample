@@ -25,7 +25,14 @@ cd heroku-php-sample
 heroku create
 ```
 
-New Heroku app will be created. Now push the content of the repository to your new heroku app:
+
+New Heroku app will be created, now add the elastic.io add-on to your new heroku app (don't worry if you can import up to 20K contacts per month for free)
+
+```
+heroku addons:add elasticio
+```
+
+Now push the content of the repository to your new heroku app:
 
 ```
 git push heroku master
