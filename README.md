@@ -36,3 +36,5 @@ And then open the app in browser:
 heroku open
 ```
 
+That's it.
+
