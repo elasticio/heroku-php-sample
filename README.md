@@ -13,7 +13,26 @@ How to start this demo
 Deploying this demo on your Heroku app is very simple. First clone this project
 
 ```
-git clone 
+git clone https://github.com/elasticio/heroku-php-sample.git
 ```
 
+Please note that you will get a read-only clone of this repository, if you want write permissions just fork the repository.
+
+Now create a new heroku app:
+
+```
+cd heroku-php-sample
+heroku create
+```
+
+New Heroku app will be created. Now push the content of the repository to your new heroku app:
+
+```
+git push heroku master
+```
+
+And then open the app in browser:
+```
+heroku open
+```
 
